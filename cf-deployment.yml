@@ -1452,8 +1452,6 @@ instance_groups:
   update:
     serial: true
   networks:
-    alternative_names:
-    - log-api.service.cf.internal
   - name: default
   jobs:
   - name: loggregator_trafficcontroller
